@@ -235,7 +235,7 @@ public class CircleChooseFragment extends Fragment {
 				itemParams.setMargins(0, 0, smallMarginPX, smallMarginPX);
 				imageView.setImageResource(imageSrc);
 				imageView.setAdjustViewBounds(true);
-
+				imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
 				imageView.setLayoutParams(itemParams);
 				tableRow.addView(imageView);
 			}
