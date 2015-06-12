@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ImageButton android:id="@+id/ingredient_list_itemButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@android:drawable/ic_input_add"
+                 android:visibility="visible"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentEnd="true"/>
+    <TextView android:id="@+id/ingredient_list_itemTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:padding="8dp"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/ingredient_list_itemButton"
+        android:text="sasfasfasf"/>
+
+
+</RelativeLayout>

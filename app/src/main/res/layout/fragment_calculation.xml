@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+	android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textSize="32sp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/calculation_rating_text"/>
+
+    <TextView android:id="@+id/calculation_ratingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="80sp"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+	<ProgressBar android:id="@+id/calculateResultProgressBar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/create_new_dishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center"
+        android:text="@string/calculation_create_new_dishButton"/>
+
+
+
+</LinearLayout>

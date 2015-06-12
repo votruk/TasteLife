@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TasteLife</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ingredient_description">Main characteristics:</string>
+    <string name="choose_ingredient_major">Major ingredient:</string>
+    <string name="choose_ingredient_disclaimer">Create!</string>
+    <string name="choose_ingredient_minor">Minor ingredients:</string>
+    <string name="minorIngredientText">Add minor</string>
+    <string name="majorIngredientText">Add major</string>
+    <string name="process_calculate">Calculate</string>
+    <string name="confirmIngredientButton">Choose</string>
+    <string name="deleteIngredientText">Delete all</string>
+    <string name="calculation_rating_text">Rating of your dish:</string>
+    <string name="calculation_create_new_dishButton">Create NEW dish!</string>
+	<string name="mix_button">MIX</string>
+    <string name="listview_button">ListView</string>
+    <string name="gridview_button">GridView</string>
+
+</resources>

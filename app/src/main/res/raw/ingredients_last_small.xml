@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<Ingredient>Allspice</Ingredient>
+		<ShortName>Allspice</ShortName>
+		<Description>This is allspice</Description>
+	</Row>
+	<Row>
+		<Ingredient>Almonds</Ingredient>
+		<ShortName>Almonds</ShortName>
+		<Description>This is ALMONDS</Description>
+	</Row>
+	<Row>
+		<Ingredient>Anchovies</Ingredient>
+		<ShortName>Anchovies</ShortName>
+		<Description>This is anchovies</Description>
+	</Row>
+	<Row>
+		<Ingredient>Anise</Ingredient>
+		<ShortName>Anise</ShortName>
+		<Description>This is anise</Description>
+	</Row>
+	<Row>
+		<Ingredient>Apples</Ingredient>
+		<ShortName>Apples</ShortName>
+		<Description>This is APPLES</Description>
+	</Row>
+	<Row>
+		<Ingredient>Apricots</Ingredient>
+		<ShortName>Apricots</ShortName>
+		<Description>This is apricots</Description>
+	</Row>
+	<Row>
+		<Ingredient>Artichokes</Ingredient>
+		<ShortName>Artichokes</ShortName>
+		<Description>This is artichokes</Description>
+	</Row>
+	<Row>
+		<Ingredient>Arugula</Ingredient>
+		<ShortName>Arugula</ShortName>
+		<Description>This is arugula</Description>
+	</Row>
+	<Row>
+		<Ingredient>Asparagus</Ingredient>
+		<ShortName>Asparagus</ShortName>
+		<Description>This is asparagus</Description>
+	</Row>
+	<Row>
+		<Ingredient>Avocados</Ingredient>
+		<ShortName>Avocados</ShortName>
+		<Description>This is AVOCADOS</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bacon</Ingredient>
+		<ShortName>Bacon</ShortName>
+		<Description>This is Bacon</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bananas</Ingredient>
+		<ShortName>Bananas</ShortName>
+		<Description>This is BANANAS</Description>
+	</Row>
+	<Row>
+		<Ingredient>Basil</Ingredient>
+		<ShortName>Basil</ShortName>
+		<Description>This is BASIL</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bay Leaf</Ingredient>
+		<ShortName>BayLeaf</ShortName>
+		<Description>This is BAY LEAF</Description>
+	</Row>
+	<Row>
+		<Ingredient>Beans</Ingredient>
+		<ShortName>Beans</ShortName>
+		<Description>This is BEANS</Description>
+	</Row>
+	<Row>
+		<Ingredient>Beans, Green</Ingredient>
+		<ShortName>BeansGreen</ShortName>
+		<Description>This is BEANS, green</Description>
+	</Row>
+	<Row>
+		<Ingredient>Beef</Ingredient>
+		<ShortName>Beef</ShortName>
+		<Description>This is Beef</Description>
+	</Row>
+	<Row>
+		<Ingredient>Beets</Ingredient>
+		<ShortName>Beets</ShortName>
+		<Description>This is beets</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bell Peppers</Ingredient>
+		<ShortName>BellPeppers</ShortName>
+		<Description>Bell pepper is a cultivar group of the species Capsicum annuum. Cultivars of the plant produce fruits in different colors, including red, yellow, orange, green, chocolate/brown, vanilla/white, and purple. Bell peppers are sometimes grouped with less pungent pepper varieties as "sweet peppers."Red, yellow and green bell peppers. In some countries these three different-colored peppers are sold in packs of three and are known as "traffic light peppers".</Description>
+	</Row>
+	<Row>
+		<Ingredient>Blackberries</Ingredient>
+		<ShortName>Blackberries</ShortName>
+		<Description>This is blackberries</Description>
+	</Row>
+	<Row>
+		<Ingredient>Blueberries</Ingredient>
+		<ShortName>Blueberries</ShortName>
+		<Description>This is BLUEBERRIES</Description>
+	</Row>
+	<Row>
+		<Ingredient>Brandy</Ingredient>
+		<ShortName>Brandy</ShortName>
+		<Description>This is brandy</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bread</Ingredient>
+		<ShortName>Bread</ShortName>
+		<Description>This is bread</Description>
+	</Row>
+	<Row>
+		<Ingredient>Bread Crumbs</Ingredient>
+		<ShortName>BreadCrumbs</ShortName>
+		<Description>This is bread crumbs</Description>
+	</Row>
+</Root>

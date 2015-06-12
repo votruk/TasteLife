@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+    <TextView android:id="@+id/chooseIngredientDisclaimerTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/choose_ingredient_disclaimer"
+              style="@android:style/TextAppearance.DeviceDefault.Large"
+              android:textStyle="bold"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentTop="true"/>
+
+    <TextView android:id="@+id/chooseIngredientMajorTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/choose_ingredient_major"
+              style="@android:style/TextAppearance.DeviceDefault.Medium"
+              android:textStyle="bold"
+              android:layout_marginTop="16dp"
+              android:layout_marginBottom="16dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentStart="true"
+              android:layout_below="@id/chooseIngredientDisclaimerTextView"/>
+
+    <TextView android:id="@+id/majorIngredientTextView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="16dp"
+              style="@android:style/TextAppearance.DeviceDefault"
+              android:layout_below="@id/chooseIngredientMajorTextView"/>
+
+    <TextView android:id="@+id/chooseIngredientMinorTextView"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/choose_ingredient_minor"
+              style="@android:style/TextAppearance.DeviceDefault.Medium"
+              android:textStyle="bold"
+              android:layout_marginTop="16dp"
+              android:layout_marginBottom="16dp"
+              android:layout_below="@id/majorIngredientTextView"/>
+
+    <TextView android:id="@+id/minorIngredientTextView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="16dp"
+              style="@android:style/TextAppearance.DeviceDefault"
+              android:layout_below="@id/chooseIngredientMinorTextView"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button android:id="@+id/majorIngredientButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="@string/majorIngredientText"
+                    android:layout_weight="1"
+                    style="?android:buttonBarButtonStyle"/>
+            <Button android:id="@+id/minorIngredientButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/minorIngredientText"
+                    android:layout_weight="1"
+                style="?android:buttonBarButtonStyle"/>
+
+
+            <Button android:id="@+id/deleteIngredientButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:text="@string/deleteIngredientText"
+                style="?android:buttonBarButtonStyle"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button android:id="@+id/calculateButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/process_calculate"
+                android:layout_weight="1"/></LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
