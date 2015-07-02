@@ -5,6 +5,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,7 +31,7 @@ public class CircleChooseFragment extends Fragment {
 
 	private IngredientLab mLab;
 
-	private ImageButton mAddButton;
+	private FloatingActionButton mAddButton;
 	private ImageButton mMainButton;
 	private ImageButton mDeleteButton;
 	private ImageButton mInfoButton;
@@ -85,7 +86,7 @@ public class CircleChooseFragment extends Fragment {
 
 		mMajorIngredient = null;
 
-		mAddButton = (ImageButton) v.findViewById(R.id.addImageButton);
+		mAddButton = (FloatingActionButton) v.findViewById(R.id.addImageButton);
 		mAddButton.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				xmlns:app="http://schemas.android.com/apk/res-auto"
 				xmlns:tools="http://schemas.android.com/tools"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent">
@@ -10,15 +11,27 @@
 					android:layout_height="wrap_content"
 					android:background="#a5d6a7"
 					android:padding="24dp">
-		<ImageButton android:id="@+id/addImageButton"
-					 android:layout_width="56dp"
-					 android:layout_height="56dp"
-					 android:layout_alignParentLeft="true"
-					 android:layout_alignParentStart="true"
-					 android:layout_alignParentTop="true"
-					 android:layout_gravity="center"
-					 android:background="@drawable/button_add_selector"
-					 android:cropToPadding="false"/>
+		<!--<ImageButton android:id="@+id/addImageButton"-->
+					 <!--android:layout_width="56dp"-->
+					 <!--android:layout_height="56dp"-->
+					 <!--android:layout_alignParentLeft="true"-->
+					 <!--android:layout_alignParentStart="true"-->
+					 <!--android:layout_alignParentTop="true"-->
+					 <!--android:layout_gravity="center"-->
+					 <!--android:background="@drawable/button_add_selector"-->
+					 <!--android:cropToPadding="false"/>-->
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/addImageButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:src="@drawable/add_white"
+			app:fabSize="normal"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:layout_alignParentTop="true"
+			android:layout_gravity="center"
+			app:elevation="4dp"
+			app:borderWidth="0dp"/>
 		<TextView android:id="@+id/numberOfIngredientsTextView"
 				  android:layout_width="wrap_content"
 				  android:layout_height="wrap_content"
@@ -29,14 +42,28 @@
 				  android:paddingTop="16dp"
 				  android:textSize="30sp"
 				  android:textStyle="bold"
-				  tools:text="|_|_|_|_|_|_|_|_|"/>
-		<ImageButton android:id="@+id/okImageButton"
-					 android:layout_width="56dp"
-					 android:layout_height="56dp"
-					 android:layout_alignParentRight="true"
-					 android:layout_gravity="center"
-					 android:background="@drawable/button_ok_selector"
-					 android:cropToPadding="false"/>
+				  android:text="|_|_|_|_|_|_|_|_|"/>
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/okImageButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_gravity="center"
+			app:elevation="4dp"
+			app:borderWidth="0dp"
+			app:fabSize="normal"
+			android:src="@drawable/check_white"
+			android:backgroundTint="@color/ok_button"/>
+
+
+
+		<!--<ImageButton android:id="@+id/okImageButton"-->
+					 <!--android:layout_width="56dp"-->
+					 <!--android:layout_height="56dp"-->
+					 <!--android:layout_alignParentRight="true"-->
+					 <!--android:layout_gravity="center"-->
+					 <!--android:background="@drawable/button_ok_selector"-->
+					 <!--android:cropToPadding="false"/>-->
 	</RelativeLayout>
 
 	<RelativeLayout android:id="@+id/selectedRelativeLayout"
@@ -49,28 +76,28 @@
 					android:paddingRight="16dp"
 					android:paddingTop="16dp">
 		<ImageButton android:id="@+id/mainButton"
-				   android:layout_width="48dp"
-				   android:layout_height="48dp"
-				   android:layout_alignParentRight="true"
-				   android:layout_alignParentTop="true"
-				   android:layout_marginBottom="8dp"
-				   android:layout_marginLeft="16dp"
-				   android:background="@drawable/main_selector"/>
+					 android:layout_width="48dp"
+					 android:layout_height="48dp"
+					 android:layout_alignParentRight="true"
+					 android:layout_alignParentTop="true"
+					 android:layout_marginBottom="8dp"
+					 android:layout_marginLeft="16dp"
+					 android:background="@drawable/main_selector"/>
 		<ImageButton android:id="@+id/deleteButton"
-				   android:layout_width="48dp"
-				   android:layout_height="48dp"
-				   android:layout_alignParentRight="true"
-				   android:layout_centerInParent="true"
-				   android:layout_marginBottom="8dp"
-				   android:layout_marginLeft="16dp"
-				   android:background="@drawable/delete_selector"/>
+					 android:layout_width="48dp"
+					 android:layout_height="48dp"
+					 android:layout_alignParentRight="true"
+					 android:layout_centerInParent="true"
+					 android:layout_marginBottom="8dp"
+					 android:layout_marginLeft="16dp"
+					 android:background="@drawable/delete_selector"/>
 		<ImageButton android:id="@+id/infoButton"
-				   android:layout_width="48dp"
-				   android:layout_height="48dp"
-				   android:layout_alignParentBottom="true"
-				   android:layout_alignParentRight="true"
-				   android:layout_marginLeft="16dp"
-				   android:background="@drawable/info_selector"/>
+					 android:layout_width="48dp"
+					 android:layout_height="48dp"
+					 android:layout_alignParentBottom="true"
+					 android:layout_alignParentRight="true"
+					 android:layout_marginLeft="16dp"
+					 android:background="@drawable/info_selector"/>
 		<ImageView android:layout_width="wrap_content"
 				   android:layout_height="160dp"
 				   android:layout_toLeftOf="@id/mainButton"
@@ -121,12 +148,12 @@
 				   android:scaleType="fitXY"
 				   android:src="@drawable/cutting_board_7_small"/>
 		<TableLayout android:id="@+id/ingredientsTableLayout"
-			android:layout_width="wrap_content"
+					 android:layout_width="wrap_content"
 					 android:layout_height="wrap_content"
-			android:layout_marginTop="16dp"
-			android:layout_marginBottom="8dp"
-			android:layout_marginRight="8dp"
-			android:layout_marginLeft="16dp">
+					 android:layout_marginBottom="8dp"
+					 android:layout_marginLeft="16dp"
+					 android:layout_marginRight="8dp"
+					 android:layout_marginTop="16dp">
 
 		</TableLayout>
 
